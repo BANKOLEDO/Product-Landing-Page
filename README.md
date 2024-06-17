@@ -1,3 +1,5 @@
 # Product Landing Page
-This is a shoe store product landing pade
+
+This is a shoe store product landing page
+
 [Page Preview]()
