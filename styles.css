@@ -135,9 +135,5 @@ hr {
     }
 }
 
-@media screen-only and (max-width: 800px) {
-    body {
-        background-color: red;
-    }
-}
+
 
