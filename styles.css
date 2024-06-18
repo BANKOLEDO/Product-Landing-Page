@@ -11,13 +11,13 @@ body {
 #header {
     background-color: white;
     width: 100vw;
-    height: 32vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 99;
+    z-index: 99
 }
 
 #header-img {
@@ -50,8 +50,7 @@ hr {
 }
 
 .main-content {
-    position: absolute;
-    top: 19.8rem;
+    margin-top: 25rem;
 }
 
 #home {
@@ -133,7 +132,7 @@ hr {
     }
 
     .main-content {
-        top: 9.7rem;
+        margin-top: 15rem;
     }
 }
 
