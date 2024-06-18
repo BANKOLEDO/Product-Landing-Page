@@ -2,4 +2,4 @@
 
 This is a shoe store product landing page
 
-[Page Preview]()
+[Page Preview](https://bankoledo.github.io/Product-Landing-Page/)
