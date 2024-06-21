@@ -136,7 +136,7 @@ hr {
     }
 
     .main-content {
-        margin-top: unset;
+        padding-top: 10rem;
     }
 }
 
