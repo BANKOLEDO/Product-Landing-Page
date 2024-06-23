@@ -75,8 +75,8 @@ hr {
     padding: 1rem;
 }
 
-#submit {
-    margin-top: 2rem;
+#submit, #button {
+    margin: 2rem 0;
     padding: 1rem;
     background-color: black;
     color: white;
@@ -94,19 +94,92 @@ hr {
     margin:-1rem 0 0 2rem;
 }
 
-#blog {
+#blog{
     background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top: 2px solid black;
+}
+
+#blog h1 {
+    padding: 2rem;
 }
 
 #blog iframe {
-    width: 700px;
+    width: 30rem;
     height: 30rem;
-    padding: 2rem 2rem;
+    margin: 2rem 5rem;
 }
 
+#new_arrivals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+}
+
+#shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-top: 2px solid black;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.c, .shop-item{
+    background-color: rgb(246, 246, 246);
+    margin: 1rem 2rem;
+    border: 3px solid black;
+}
+
+.details-header {
+    text-align: center;
+    background-color: grey;
+    margin: 0 0 1rem 0;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.features-description {
+    text-align: center;
+    padding: 1rem;
+}
+
+.price {
+    margin: 1rem 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 0 1rem;
+    color: black;
+}
+
+.links a:hover {
+    color: white;
+}
+.footer p {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.img {
+    width: 12rem;
+    height: 12rem;
+}
 @media (min-width:1000px) {
     html {
         scroll-padding-top: 10rem;
@@ -138,6 +211,12 @@ hr {
     .main-content {
         padding-top: 10rem;
     }
+
+    .list-container {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-evenly; */
+    }
 }
 
 @media (max-width:540px) {
@@ -146,6 +225,23 @@ hr {
         text-align: center;
     }
 }
+
+@media (max-width:503px) {
+    #header {
+        min-width: 100%;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+
+    .each-details p {
+    margin:0 0 1rem 2rem;
+    text-align: center;
+}
+}
+
+
 
 
 
